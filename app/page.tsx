@@ -177,7 +177,7 @@ export default function HomePage() {
                   variant="outline"
                   className="w-full rounded-full border-2 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 bg-transparent"
                 >
-                  <Link href="/projects/urban-logistics-hub">Learn More</Link>
+                  <Link href="/">Learn More</Link>
                 </Button>
               </CardContent>
             </Card>
