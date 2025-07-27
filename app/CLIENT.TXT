@@ -1,0 +1,108 @@
+<section className="py-16">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Recent Client Work</h2>
+            <p className="text-xl text-slate-600 max-w-2xl mx-auto">
+              Showcasing some of our latest web design and development projects for satisfied clients.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+            <Card className="hover:shadow-2xl transition-all duration-300 rounded-3xl border-0 bg-gradient-to-br from-white to-slate-50 transform hover:scale-105 relative overflow-hidden">
+              {/* Client Logo Bubble */}
+              <div className="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-full flex items-center justify-center shadow-lg">
+                <span className="text-white font-bold text-sm">EC</span>
+              </div>
+
+              <CardHeader className="pr-20">
+                <div className="flex items-center justify-between text-xs text-slate-500 mb-2">
+                  <span>Launched 2024</span>
+                  <span className="text-green-600 font-medium">↗ 150% Traffic</span>
+                </div>
+                <CardTitle>E-Commerce Platform</CardTitle>
+                <CardDescription>Modern online store with payment integration</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-slate-600 mb-4">
+                  Complete e-commerce solution with custom design, secure payments, and inventory management.
+                </p>
+                <div className="text-sm text-blue-600 font-medium mb-4">Retail • E-commerce</div>
+                <Button
+                  size="sm"
+                  className="w-full rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+                >
+                  <Link href="/projects/ecommerce-platform">View Project</Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-2xl transition-all duration-300 rounded-3xl border-0 bg-gradient-to-br from-white to-slate-50 transform hover:scale-105 relative overflow-hidden">
+              {/* Client Logo Bubble */}
+              <div className="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-green-500 to-emerald-500 rounded-full flex items-center justify-center shadow-lg">
+                <span className="text-white font-bold text-sm">RS</span>
+              </div>
+
+              <CardHeader className="pr-20">
+                <div className="flex items-center justify-between text-xs text-slate-500 mb-2">
+                  <span>Launched 2024</span>
+                  <span className="text-green-600 font-medium">↗ 200% Leads</span>
+                </div>
+                <CardTitle>Restaurant Website</CardTitle>
+                <CardDescription>Interactive menu and online reservations</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-slate-600 mb-4">
+                  Beautiful restaurant website with online ordering, reservation system, and social media integration.
+                </p>
+                <div className="text-sm text-green-600 font-medium mb-4">Food & Beverage • Local Business</div>
+                <Button
+                  size="sm"
+                  className="w-full rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+                >
+                  <Link href="/projects/restaurant-website">View Project</Link>
+                </Button>
+              </CardContent>
+            </Card>
+
+            <Card className="hover:shadow-2xl transition-all duration-300 rounded-3xl border-0 bg-gradient-to-br from-white to-slate-50 transform hover:scale-105 relative overflow-hidden">
+              {/* Client Logo Bubble */}
+              <div className="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center shadow-lg">
+                <span className="text-white font-bold text-sm">CP</span>
+              </div>
+
+              <CardHeader className="pr-20">
+                <div className="flex items-center justify-between text-xs text-slate-500 mb-2">
+                  <span>Launched 2024</span>
+                  <span className="text-green-600 font-medium">↗ 300% Engagement</span>
+                </div>
+                <CardTitle>Corporate Portfolio</CardTitle>
+                <CardDescription>Professional business showcase</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-slate-600 mb-4">
+                  Sleek corporate website showcasing services, team, and client testimonials with modern animations.
+                </p>
+                <div className="text-sm text-purple-600 font-medium mb-4">Corporate • Professional Services</div>
+                <Button
+                  size="sm"
+                  className="w-full rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+                >
+                  <Link href="/projects/corporate-portfolio">View Project</Link>
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+
+          <div className="text-center">
+            <Button
+              size="lg"
+              className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+            >
+              <Link href="/projects" className="flex items-center">
+                View All Projects
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
