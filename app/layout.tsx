@@ -11,10 +11,15 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Tsunami Development - Strategic Development & Innovation",
-  description:
-    "Driving innovation through strategic development and transformative solutions across multiple industries. Building sustainable value for the future.",
-    generator: 'tsunamidev.org'
+  title: "Tsunami Development",
+  description: "Premium Web Design & Hosting Solutions",
+  icons: [
+    {
+      rel: "icon",
+      url: "/assets/img/Tsunami-Trans.png",
+      type: "image/png",
+    },
+  ],
 }
 
 export default function RootLayout({
