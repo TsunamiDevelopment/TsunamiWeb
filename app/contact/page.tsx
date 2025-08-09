@@ -141,6 +141,7 @@ function ContactForm() {
       </div>
 
       <Button
+        asChild
         type="submit"
         className="w-full rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
         disabled={loading}
