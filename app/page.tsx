@@ -133,6 +133,7 @@ export default function HomePage() {
                   A sleek mod with built-in hosting that makes it easy to launch and manage Minecraft servers, ideal for small groups wanting a smooth, hassle-free experience.
                 </p>
                 <Button
+                  asChild
                   size="sm"
                   variant="outline"
                   className="w-full rounded-full border-2 hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 bg-transparent"
@@ -153,6 +154,7 @@ export default function HomePage() {
               <CardContent>
                 <p className="text-slate-600 mb-4">A <a href="https://pterodactyl.io" target="_blank" style={{ color: "green", textDecoration: "underline" }}>Pterodactyl.io</a> egg that is designed to handle multiple games/eggs all in one place, using as little space as possible.</p>
                 <Button
+                  asChild
                   size="sm"
                   variant="outline"
                   className="w-full rounded-full border-2 hover:bg-gradient-to-r hover:from-green-500 hover:to-emerald-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 bg-transparent"
@@ -173,6 +175,7 @@ export default function HomePage() {
               <CardContent>
                 <p className="text-slate-600 mb-4">Centralized support for all projects, ensuring consistent and efficient ticket resolution across Tsunami Development's network.</p>
                 <Button
+                  asChild
                   size="sm"
                   variant="outline"
                   className="w-full rounded-full border-2 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 bg-transparent"
