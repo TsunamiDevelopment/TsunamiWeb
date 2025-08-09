@@ -33,6 +33,7 @@ export default function HomePage() {
                 </Link>
               </Button>*/}
               <Button
+                asChild
                 size="lg"
                 variant="outline"
                 className="border-2 border-white text-white hover:bg-white hover:text-slate-900 bg-transparent rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
@@ -198,6 +199,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
+              asChild
               size="lg"
               className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
             >
