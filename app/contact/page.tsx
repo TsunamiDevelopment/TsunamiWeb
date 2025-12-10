@@ -140,14 +140,22 @@ function ContactForm() {
         />
       </div>
 
-      <Button
+      {/*<Button
         asChild
         type="submit"
         className="w-full rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
         disabled={loading}
       >
         {loading ? "Sending..." : "Get My Free Quote"}
-      </Button>
+      </Button>*/}
+      <button
+  type="button"
+  disabled
+  className="w-full rounded-full bg-gradient-to-r from-blue-500 to-cyan-500 opacity-40 cursor-not-allowed py-3 text-center text-white"
+>
+  Currently Disabled
+</button>
+
     </form>
   );
 }
