@@ -1,19 +1,5 @@
 import nodemailer from 'nodemailer';
 
-
-// BOT KILLER
-export async function POST(req) {
-  const ip = req.headers.get("x-forwarded-for") ?? "unknown";
-
-  const { success } = await rateLimit.limit(ip);
-  if (!success) {
-    return new Response(JSON.stringify({ success: false, message: "Slow down." }), { status: 429 });
-  }
-
-  // Continue your logic...
-}
-
-
 export default async function handler(req, res) {
   if (req.method !== 'POST') {
     return res.status(405).json({ message: 'Method not allowed' });
