@@ -143,9 +143,9 @@ function ContactForm() {
         <div className="space-y-6">
 
   {/* Disabled message */}
-  <p className="text-center text-gray-600">
-    This form is currently unavailable.
-  </p>
+  <p className="text-center text-gray-700 font-semibold text-lg bg-gray-100 p-3 rounded-xl">
+  This form is temporarily disabled for update by the Webmaster.
+</p>
 
   {/* Entire form disabled */}
   <div className="opacity-50 pointer-events-none space-y-6">
