@@ -149,13 +149,15 @@ export default function LegalPage() {
                       in compliance with applicable regulations.
                     </p>
                     <Button
-                      asChild
-                      variant="outline"
-                      className="w-full bg-transparent rounded-full border-2 hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
-                    >
-                      <Download className="h-4 w-4 mr-2" />
-                      Download PDF
-                    </Button>
+  asChild
+  variant="outline"
+  className="w-full bg-transparent rounded-full border-2 hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+>
+  <a href="/legal/privacy.pdf">
+    <Download className="h-4 w-4 mr-2 inline-block" />
+    Download PDF
+  </a>
+</Button>
                   </CardContent>
                 </Card>
 
@@ -173,13 +175,15 @@ export default function LegalPage() {
                       responsibilities, and limitations.
                     </p>
                     <Button
-                      asChild
-                      variant="outline"
-                      className="w-full bg-transparent rounded-full border-2 hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
-                    >
-                      <Download className="h-4 w-4 mr-2" />
-                      Download PDF
-                    </Button>
+  asChild
+  variant="outline"
+  className="w-full bg-transparent rounded-full border-2 hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+>
+  <a href="/legal/privacy.pdf">
+    <Download className="h-4 w-4 mr-2 inline-block" />
+    Download PDF
+  </a>
+</Button>
                   </CardContent>
                 </Card>
 
@@ -197,13 +201,15 @@ export default function LegalPage() {
                       expectations for all stakeholders.
                     </p>
                     <Button
-                      asChild
-                      variant="outline"
-                      className="w-full bg-transparent rounded-full border-2 hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
-                    >
-                      <Download className="h-4 w-4 mr-2" />
-                      Download PDF
-                    </Button>
+  asChild
+  variant="outline"
+  className="w-full bg-transparent rounded-full border-2 hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+>
+  <a href="/legal/privacy.pdf">
+    <Download className="h-4 w-4 mr-2 inline-block" />
+    Download PDF
+  </a>
+</Button>
                   </CardContent>
                 </Card>
 
@@ -221,13 +227,15 @@ export default function LegalPage() {
                       the highest standards of business integrity.
                     </p>
                     <Button
-                      asChild
-                      variant="outline"
-                      className="w-full bg-transparent rounded-full border-2 hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
-                    >
-                      <Download className="h-4 w-4 mr-2" />
-                      Download PDF
-                    </Button>
+  asChild
+  variant="outline"
+  className="w-full bg-transparent rounded-full border-2 hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white hover:border-transparent shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+>
+  <a href="/legal/privacy.pdf">
+    <Download className="h-4 w-4 mr-2 inline-block" />
+    Download PDF
+  </a>
+</Button>
                   </CardContent>
                 </Card>
               </div>
