@@ -143,7 +143,7 @@ function ContactForm() {
         <div className="space-y-6">
 
   {/* Disabled message */}
-  <p className="text-center text-gray-700 font-semibold text-lg bg-gray-100 p-3 rounded-xl">
+  <p className="text-center text-red-800 font-semibold text-lg bg-red-100 p-3 rounded-xl">
   This form is temporarily disabled for update by the Webmaster.
 </p>
 
