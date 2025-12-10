@@ -76,7 +76,7 @@ function ContactForm() {
 
   return (
     <form className="space-y-6" onSubmit={handleSubmit}>
-      <div className="grid md:grid-cols-2 gap-4">
+      {/*<div className="grid md:grid-cols-2 gap-4">
         <div className="space-y-2">
           <Label htmlFor="firstName">First Name</Label>
           <Input id="firstName" name="firstName" placeholder="John" required className="rounded-full" />
@@ -138,7 +138,110 @@ function ContactForm() {
           className="min-h-[120px] rounded-3xl"
           required
         />
+      </div> */}
+
+        <div className="space-y-6">
+
+  {/* Disabled message */}
+  <p className="text-center text-gray-600">
+    This form is currently unavailable.
+  </p>
+
+  {/* Entire form disabled */}
+  <div className="opacity-50 pointer-events-none space-y-6">
+
+    <div className="grid md:grid-cols-2 gap-4">
+      <div className="space-y-2">
+        <Label htmlFor="firstName">First Name</Label>
+        <Input
+          id="firstName"
+          name="firstName"
+          placeholder="John"
+          required
+          className="rounded-full"
+        />
       </div>
+
+      <div className="space-y-2">
+        <Label htmlFor="lastName">Last Name</Label>
+        <Input
+          id="lastName"
+          name="lastName"
+          placeholder="Doe"
+          required
+          className="rounded-full"
+        />
+      </div>
+    </div>
+
+    <div className="space-y-2">
+      <Label htmlFor="email">Email</Label>
+      <Input
+        id="email"
+        name="email"
+        type="email"
+        placeholder="john@example.com"
+        required
+        className="rounded-full"
+      />
+    </div>
+
+    <div className="space-y-2">
+      <Label htmlFor="company">Company</Label>
+      <Input
+        id="company"
+        name="company"
+        placeholder="Your Company"
+        className="rounded-full"
+      />
+    </div>
+
+    <div className="space-y-2">
+      <Label htmlFor="projectType">Project Type</Label>
+      <Select name="projectType">
+        <SelectTrigger id="projectType" name="projectType" className="rounded-full">
+          <SelectValue placeholder="Select project type" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="new-website">New Website Design</SelectItem>
+          <SelectItem value="redesign">Website Redesign</SelectItem>
+          <SelectItem value="ecommerce">E-Commerce Store</SelectItem>
+          <SelectItem value="hosting">Web Hosting</SelectItem>
+          <SelectItem value="maintenance">Website Maintenance</SelectItem>
+          <SelectItem value="other">Other</SelectItem>
+        </SelectContent>
+      </Select>
+    </div>
+
+    <div className="space-y-2">
+      <Label htmlFor="budget">Budget Range</Label>
+      <Select name="budget">
+        <SelectTrigger id="budget" name="budget" className="rounded-full">
+          <SelectValue placeholder="Select budget range" />
+        </SelectTrigger>
+        <SelectContent>
+          <SelectItem value="under-300">Under $300</SelectItem>
+          <SelectItem value="300-500">$300 - $500</SelectItem>
+          <SelectItem value="500-1000">$500 - $1000</SelectItem>
+          <SelectItem value="over-1k">Over $1000</SelectItem>
+        </SelectContent>
+      </Select>
+    </div>
+
+    <div className="space-y-2">
+      <Label htmlFor="message">Project Details</Label>
+      <Textarea
+        id="message"
+        name="message"
+        placeholder="Tell us about your project goals, timeline, and any specific requirements..."
+        required
+        className="min-h-[120px] rounded-3xl"
+      />
+    </div>
+  </div>
+</div>
+
+          
 
       {/*<Button
         asChild
